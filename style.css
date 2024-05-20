@@ -1,3 +1,11 @@
+@font-face {
+    font-family: nb;
+    src: url(NBInternationalProBoo.ttf);
+}
+@font-face {
+    font-family: rejoy;
+    src: url(Rejouice-Headline.ttf);
+}
 *{
     padding: 0;
     margin: 0;
@@ -26,6 +34,7 @@ body{
 }
 #loader h3 {
     font-size: 3vw;
+    font-family: nb;
 }
 #page1{
     height: 100vh;
@@ -76,6 +85,7 @@ nav i{
     font-size: 13vw;
     text-align: center;
     overflow: hidden;
+    font-family: rejoy;
 }   
 #content h1 span{
     display: inline-block;
@@ -360,6 +370,7 @@ nav i{
     font-size: 17.5vw;
     text-align: center;
     overflow: hidden;
+    font-family: rejoy;
 }   
 #fbottom h1 span{
     display: inline-block;
